@@ -14,7 +14,7 @@ class ___VARIABLE_productName:identifier___ViewController: UIViewController, ___
 
     //MARK:- Properties
     
-	var presenter: ___VARIABLE_productName:identifier___PresenterProtocol
+	var presenter: ___VARIABLE_productName:identifier___PresenterProtocol!
 
     
     //MARK:- Initial
