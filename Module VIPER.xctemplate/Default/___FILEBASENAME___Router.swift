@@ -10,7 +10,7 @@
 
 import UIKit
 
-class ___VARIABLE_productName:identifier___Router: ___VARIABLE_productName:identifier___WireframeProtocol {
+class ___VARIABLE_productName:identifier___Router {
     
     weak var viewController: UIViewController?
     
@@ -27,4 +27,10 @@ class ___VARIABLE_productName:identifier___Router: ___VARIABLE_productName:ident
         
         return view
     }
+}
+
+//MARK: - ___VARIABLE_productName:identifier___WireframeProtocol
+
+extension ___VARIABLE_productName:identifier___Router : ___VARIABLE_productName:identifier___WireframeProtocol {
+    
 }

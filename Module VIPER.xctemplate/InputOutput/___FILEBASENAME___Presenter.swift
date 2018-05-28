@@ -10,7 +10,7 @@
 
 import UIKit
 
-class ___VARIABLE_productName:identifier___Presenter: ___VARIABLE_productName:identifier___PresenterProtocol, ___VARIABLE_productName:identifier___InteractorOutputProtocol {
+class ___VARIABLE_productName:identifier___Presenter: ___VARIABLE_productName:identifier___PresenterProtocol {
 
     weak private var view: ___VARIABLE_productName:identifier___ViewProtocol?
     var interactor: ___VARIABLE_productName:identifier___InteractorInputProtocol?
@@ -22,4 +22,11 @@ class ___VARIABLE_productName:identifier___Presenter: ___VARIABLE_productName:id
         self.router = router
     }
 
+}
+
+
+//MARK:- ___VARIABLE_productName:identifier___InteractorOutputProtocol
+
+extension ___VARIABLE_productName:identifier___Presenter : ___VARIABLE_productName:identifier___InteractorOutputProtocol {
+    
 }

@@ -10,7 +10,7 @@
 
 import UIKit
 
-class ___VARIABLE_productName:identifier___ViewController: UIViewController, ___VARIABLE_productName:identifier___ViewProtocol {
+class ___VARIABLE_productName:identifier___ViewController: UIViewController {
 
     //MARK:- Properties
     
@@ -31,6 +31,17 @@ class ___VARIABLE_productName:identifier___ViewController: UIViewController, ___
     
 	override func viewDidLoad() {
         super.viewDidLoad()
+        setupUI()
     }
 
+    func setupUI(){
+        
+    }
+}
+
+
+//MARK: - ___VARIABLE_productName:identifier___ViewProtocol
+
+extension ___VARIABLE_productName:identifier___ViewController : ___VARIABLE_productName:identifier___ViewProtocol {
+    
 }
