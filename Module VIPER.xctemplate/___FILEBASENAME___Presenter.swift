@@ -14,9 +14,9 @@ class ___VARIABLE_productName:identifier___Presenter: ___VARIABLE_productName:id
 
     weak private var view: ___VARIABLE_productName:identifier___ViewProtocol?
     var interactor: ___VARIABLE_productName:identifier___InteractorInputProtocol?
-    private let router: ___VARIABLE_productName:identifier___WireframeProtocol
+    private let router: ___VARIABLE_productName:identifier___WireframeProtocol?
 
-    init(interface: ___VARIABLE_productName:identifier___ViewProtocol, interactor: ___VARIABLE_productName:identifier___InteractorInputProtocol, router: ___VARIABLE_productName:identifier___WireframeProtocol) {
+    init(interface: ___VARIABLE_productName:identifier___ViewProtocol? = nil, interactor: ___VARIABLE_productName:identifier___InteractorInputProtocol? = nil, router: ___VARIABLE_productName:identifier___WireframeProtocol? = nil) {
         self.view = interface
         self.interactor = interactor
         self.router = router
