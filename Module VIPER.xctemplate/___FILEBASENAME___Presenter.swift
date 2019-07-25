@@ -24,9 +24,7 @@ class ___VARIABLE_productName:identifier___Presenter: ___VARIABLE_productName:id
 
 }
 
-
-//MARK:- ___VARIABLE_productName:identifier___InteractorOutputProtocol
-
+// MARK: - ___VARIABLE_productName:identifier___InteractorOutputProtocol
 extension ___VARIABLE_productName:identifier___Presenter : ___VARIABLE_productName:identifier___InteractorOutputProtocol {
     
 }

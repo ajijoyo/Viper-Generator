@@ -10,31 +10,31 @@
 
 import Foundation
 
-//MARK: Wireframe -
-protocol ___VARIABLE_productName:identifier___WireframeProtocol: class {
+// MARK: - Wireframe
+protocol ___VARIABLE_productName:identifier___WireframeProtocol: AnyObject {
 
 }
-//MARK: Presenter -
-protocol ___VARIABLE_productName:identifier___PresenterProtocol: class {
+// MARK: - Presenter
+protocol ___VARIABLE_productName:identifier___PresenterProtocol: AnyObject {
 
     var interactor: ___VARIABLE_productName:identifier___InteractorInputProtocol? { get set }
 }
 
-//MARK: Interactor -
-protocol ___VARIABLE_productName:identifier___InteractorOutputProtocol: class {
+// MARK: - Interactor
+protocol ___VARIABLE_productName:identifier___InteractorOutputProtocol: AnyObject {
 
     /* Interactor -> Presenter */
 }
 
-protocol ___VARIABLE_productName:identifier___InteractorInputProtocol: class {
+protocol ___VARIABLE_productName:identifier___InteractorInputProtocol: AnyObject {
 
     var presenter: ___VARIABLE_productName:identifier___InteractorOutputProtocol?  { get set }
 
     /* Presenter -> Interactor */
 }
 
-//MARK: View -
-protocol ___VARIABLE_productName:identifier___ViewProtocol: class {
+// MARK: - View
+protocol ___VARIABLE_productName:identifier___ViewProtocol: AnyObject {
 
     var presenter: ___VARIABLE_productName:identifier___PresenterProtocol!  { get set }
 

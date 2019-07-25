@@ -12,14 +12,14 @@ import UIKit
 
 class ___VARIABLE_productName:identifier___ViewController: UIViewController {
 
-    //MARK:- Properties
+    // MARK: - Properties
     
 	var presenter: ___VARIABLE_productName:identifier___PresenterProtocol!
 
     
-    //MARK:- Initial
+    // MARK: - Initial
     
-    init(){
+    init() {
         super.init(nibName: nil, bundle: nil)
     }
     
@@ -27,21 +27,18 @@ class ___VARIABLE_productName:identifier___ViewController: UIViewController {
         super.init(coder: aDecoder)
     }
     
-    //MARK:- View Lifecycle
-    
+    // MARK: - View Lifecycle
 	override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
     }
 
-    func setupUI(){
+    func setupUI() {
         
     }
 }
 
-
-//MARK: - ___VARIABLE_productName:identifier___ViewProtocol
-
+// MARK: - ___VARIABLE_productName:identifier___ViewProtocol
 extension ___VARIABLE_productName:identifier___ViewController : ___VARIABLE_productName:identifier___ViewProtocol {
     
 }
