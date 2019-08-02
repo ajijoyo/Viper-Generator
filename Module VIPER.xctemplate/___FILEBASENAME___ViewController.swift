@@ -39,6 +39,6 @@ class ___VARIABLE_productName:identifier___ViewController: UIViewController {
 }
 
 // MARK: - ___VARIABLE_productName:identifier___ViewProtocol
-extension ___VARIABLE_productName:identifier___ViewController : ___VARIABLE_productName:identifier___ViewProtocol {
+extension ___VARIABLE_productName:identifier___ViewController: ___VARIABLE_productName:identifier___ViewProtocol {
     
 }
