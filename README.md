@@ -1,5 +1,5 @@
 # Viper-Generator
-Module Viper Generator for Swift 4
+Module Viper Generator for Swift 5
 
 On original Module you can access to https://github.com/Juanpe/Swift-VIPER-Module
 
