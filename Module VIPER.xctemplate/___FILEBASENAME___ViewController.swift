@@ -16,7 +16,6 @@ class ___VARIABLE_productName:identifier___ViewController: UIViewController {
     
 	var presenter: ___VARIABLE_productName:identifier___PresenterProtocol!
 
-    
     // MARK: - Initial
     
     init() {
