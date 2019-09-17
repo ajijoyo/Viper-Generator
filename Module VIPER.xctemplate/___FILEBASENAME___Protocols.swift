@@ -18,7 +18,6 @@ protocol ___VARIABLE_productName:identifier___WireframeProtocol: AnyObject {
 // MARK: - Presenter
 protocol ___VARIABLE_productName:identifier___PresenterProtocol: AnyObject {
 
-    var interactor: ___VARIABLE_productName:identifier___InteractorInputProtocol? { get set }
 }
 
 // MARK: - Interactor
@@ -37,7 +36,7 @@ protocol ___VARIABLE_productName:identifier___InteractorInputProtocol: AnyObject
 // MARK: - View
 protocol ___VARIABLE_productName:identifier___ViewProtocol: AnyObject {
 
-    var presenter: ___VARIABLE_productName:identifier___PresenterProtocol! { get set }
+    var presenter: ___VARIABLE_productName:identifier___PresenterProtocol? { get set }
 
     /* Presenter -> ViewController */
 }

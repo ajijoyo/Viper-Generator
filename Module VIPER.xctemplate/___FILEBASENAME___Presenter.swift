@@ -21,7 +21,6 @@ class ___VARIABLE_productName:identifier___Presenter: ___VARIABLE_productName:id
         self.interactor = interactor
         self.router = router
     }
-
 }
 
 // MARK: - ___VARIABLE_productName:identifier___InteractorOutputProtocol
